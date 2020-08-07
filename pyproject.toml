@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "MAFAExtractor"
+version = "0.1.0"
+description = "Extract label data from the MAFA dataset into a Pandas DataFrame."
+authors = ["Dhyey Lalseta <dhyeylalseta@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/DhyeyLalseta/MAFAExtractor"
+repository = "https://github.com/DhyeyLalseta/MAFAExtractor"
+keywords = ["MAFA", "extractor", "pandas", "python", "pandas-dataframe", "dataset"]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+pandas = "^1.1.0"
+numpy = "^1.19.1"
+scipy = "^1.5.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^19.10b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
