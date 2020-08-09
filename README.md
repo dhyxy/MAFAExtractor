@@ -4,6 +4,16 @@ This is a tool for extracting data from the [MAFA Dataset](https://openaccess.th
 
 The primary function is `extract_mafa()` which is all you really need if you're just extracting the data into Pandas. If the filename isn't the original `LabelTrainAll.mat` or `LabelTestAll.mat`, then you have to provide the `dataset_type` which can be either *"train"* or *"test"*. You can also choose whether you want the dataframe to be cleaned to have more readable and processed values by the `clean` parameter (which by default is True), or can be set to False if you  require the dataset's original headings.
 
+## Installation
+Install mafaextractor by either running pip install into your environment using:
+```shell
+pip install mafaextractor
+```
+or by cloning the github repository into your working directory:
+```shell
+git clone https://github.com/DhyeyLalseta/MAFAExtractor
+```
+
 ## Usage:
 ```python3
 from mafaextractor import extract_mafa

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "MAFAExtractor"
-version = "0.1.0"
+version = "0.1.1"
 description = "Extract label data from the MAFA dataset into a Pandas DataFrame."
 authors = ["Dhyey Lalseta <dhyeylalseta@outlook.com>"]
 license = "MIT"
